@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    background-image: url("../Imagini/");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family:'Century', Century , monospace;
+    font-size: 20px;
+        }
+        
+        
+        
+    header {
+        background-color: #948273;
+        min-height: 65px;
+        border-bottom: rgb(171, 185, 184);
+        text-align: center;
+        }
+        
+     a {
+        float: center;
+        color: black;
+        text-decoration: none;
+        font-size: 19px;
+        padding: 21px 40px 60px 70px;
+        }
+        
+     a.active {
+        background-color: #bda48e;
+        }
+        
+     a:hover {
+        background-color: #bda48e;
+        }
+    footer {
+        min-height: 65px;
+        background-color: #948273;
+        
+        }
+        
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Century, 'Lucida Sans';
+        }
+        
+    img {
+        max-width: 100%;
+        }
+        
+    p {
+        line-height: 140%;  
+        }
+        
+    hr {
+        border-top: 3px solid rgb(8, 12, 8);
+        }
+    .container {
+        min-height: 150vh;
+        padding: 5px 20% 20px 20%;
+        }
+    .logo {
+        height: 60px;
+        float: center;
+        margin: 10px 30px 30px 40px
+        }
+    .text-titlu{
+        text-align: center;
+        padding: 20px 50px 40px 20px ;
+        }  
+    .centered {
+        text-align: center;
+        padding: 20px 170px 40px 20px ;
+        }
+        
+    .footer-info {
+        margin-top: 20px;
+        font-size: 24px;
+        }
+        
+    .img-start {
+        max-height: 500px;
+        border: 4px solid rgb(7, 8, 8);
+        box-shadow: 6px 6px 8px rgb(63, 62, 62);
+        }
+        
+    .container-poze {
+        display: flex;
+        justify-content: space-around;
+            
+        }
+        
+    .img-poze {
+        max-height: 160px;
+        transition: all linear 1s;
+        }
+        
+    .img-poze:hover {
+        transform: scale(1.1);
+        transition: all linear 2s;
+        }
+    
+    a{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .col-1 {width: 10%;}
+    .col-2 {width: 20%;}
+    .col-3 {width: 30%;}
+    .col-4 {width: 40%;}
+    .col-5 {width: 50%;}
+    .col-6 {width: 60%;}
+    .col-7 {width: 70%;}
+    .col-8 {width: 80%;}
+    .col-9 {width: 90%;}
+    .col-10 {width: 100%;}
+    
+    [class*="col-"] {
+        float: left;
+    }
+    
+    .row {
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+    .input-box {
+        width: 50%;
+        height: 22px;
+    }
+    
+    .input-submit {
+        font-size: 18px;
+        background-color: rgb(140, 140, 143);
+        padding: 5px;
+        border: 2px solid black;
+    }
+    
+    
+    .contact-form {
+        background-color: rgba(224, 146, 146, 0.678);
+        padding: 10px;
+        border: 2px solid black;
+        margin: 0px 0px 20px 80px;
+        
+    }
+    
+    
+    
+    
+    .contacte {
+        background-color: rgba(224, 146, 146, 0.678);
+        padding: 10px;
+        border: 2px solid black;
+        margin: 80px 0px 0px 80px ;
+        
+    }
+    
+    .hamburger-menu {
+        display: none;
+        float: right;
+    
+    }
+    
+    
+    
+    @media (max-width: 770px) {
+         
+        .container {
+            padding: 5px 5% 20px 5%;
+        }
+    
+        [class*="col-"] {
+            width: 100%;
+        }
+    
+        .nav a{
+            display: none;
+          } 
+    
+        a.hamburger-menu {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+       
+            .nav.mobile a{
+            float:  none;
+            display: block;
+            text-align: left;
+    
+            }
+        }
+    
+        .form {
+            margin: 0px 50px 50px 50px;
+        }
+    
